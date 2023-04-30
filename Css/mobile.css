@@ -1,0 +1,112 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    body {
+        flex-direction: column;
+        padding:0;
+    }
+    /******* Header *******/
+    header {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav {
+        width: 100%;
+        border-bottom: 2px solid var(--main-bg-color);
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .active {
+        width: 50%;
+    }
+    .active:hover{
+        border-bottom: 2px solid blue;
+        border-top: none;
+        cursor: url(https://icons8.com/icon/xv1kwIOOUeFZ/cursor), pointer;
+    }
+
+    /*******Main container********/
+    .main-container {
+        padding: 0;
+    }
+    
+    .infos-bloc {
+        padding: 0 20px;
+    }
+
+    .filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtres-liste {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .filtres-card {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /******* Main *******/ 
+
+   .hebergements-and-populaires {
+        flex-direction: column-reverse;
+   }
+    .hebergements {
+        width: 100%;
+        flex-direction: column;
+    }
+    .hebergements-cards .card {
+        width: 100%;
+        margin-top: 33px;
+    }
+
+    .activites-cards {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .activites-cards .card {
+        width: 100%;
+    }
+
+    .activites-cards img {
+        height: 141px;
+    }
+    
+    .populaires {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /******* footer *******/
+    footer {
+        padding: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /******* général *******/
+    .card-subtitle {
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 13px;
+    }
+}

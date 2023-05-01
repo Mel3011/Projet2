@@ -26,7 +26,6 @@
     .active:hover{
         border-bottom: 2px solid blue;
         border-top: none;
-        cursor: url(https://icons8.com/icon/xv1kwIOOUeFZ/cursor), pointer;
     }
 
     /*******Main container********/
@@ -53,7 +52,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     /******* Main *******/ 
 
    .hebergements-and-populaires {
@@ -71,6 +70,7 @@
     .activites-cards {
         flex-direction: column;
         width: 100%;
+        gap: 20px;
     }
     
     .activites-cards .card {

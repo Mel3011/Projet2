@@ -4,7 +4,11 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -21,8 +25,12 @@
 
     .populaires-cards {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: row;   
+    }
+
+    .populaires-cards .card {
+        display: flex;
+        width: 30%;
     }
 
     .populaires-cards .card-title {
@@ -41,4 +49,5 @@
         width: 100%;
     }
 }
+
 

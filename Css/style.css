@@ -82,8 +82,8 @@ a{
 }
 
 .active:hover{
-    border-top: 2px solid blue;
-    cursor: url(https://icons8.com/icon/xv1kwIOOUeFZ/cursor), pointer;
+    border-top: 2px solid #0065FC;
+    
 }
 
 .active:hover a {
@@ -103,6 +103,7 @@ a{
 
 .searchbar {
     display: flex;
+    padding: 10px 0;
 }
 
 .map {
@@ -111,7 +112,6 @@ a{
     border-bottom-left-radius: 10px;
     padding: 10px;
     color: black;
-    width: 2%;
     text-align: center;
 }
 .map .fa-solid{
@@ -120,17 +120,28 @@ a{
 
 .site-search {
     border: 1px var(--main-bg-color) solid;
-    padding: 11px;
+    padding: 12px;
     font-weight: bold;
 }
-button {
+
+.button {
     background-color: var(--main-color);
-    border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 11.5px;
-    color: #FFFFFF;
     font-weight: bold;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.fa-magnifying-glass {
+    color: white;
+    display: none;
 }
 
 /****Filtres****/
@@ -138,6 +149,12 @@ button {
     display: flex;
     align-items: center;
     gap: 15px;
+    cursor: pointer;
+}
+
+.filtre-title p {
+    padding: 10px;
+    margin: 0;
 }
 
 .filtres-liste {
@@ -146,6 +163,7 @@ button {
     align-items: center;
     flex-wrap: wrap;
     font-weight: bold;
+    gap:10px;
 }
 
 .filtres-menu {
@@ -159,19 +177,15 @@ button {
     width: auto;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 10px;
+    text-align: center;
+   
 }
 
 .filtres-liste :hover {
     background-color: #DEEBFF;
 }
 
-.icone {
-    padding-right: 15px;
-}
 
 /******Info******/
 .information {
@@ -257,6 +271,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    cursor: pointer;
 
 }
 
@@ -305,7 +320,8 @@ button {
     display: flex;
     flex-direction: column;
     width : 100%;
-    gap: 30px;
+    gap: 20px;
+    cursor: pointer;
 }
 
 .populaires-title {
@@ -357,6 +373,7 @@ button {
 .activites-cards {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .activites-cards .card {
@@ -381,7 +398,6 @@ button {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    
 }
 
 .activites-cards .card-title {
@@ -407,5 +423,4 @@ footer {
 .mentions {
     width: 100%;
 }
-
 

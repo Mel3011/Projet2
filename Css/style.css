@@ -115,6 +115,8 @@ a{
     padding: 10px;
     color: black;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .map .fa-solid{
@@ -123,16 +125,28 @@ a{
 
 .site-search {
     border: 1px var(--main-bg-color) solid;
-    padding: 12px;
-    font-weight: bold;
+    width: 100%;
 }
 
-.button {
+.site-search p {
+    margin: 0;
+    padding: 12px;
+}
+
+input {
+    border: none;
+    margin: 0;
+    font-weight: bold;
+    color: black !important
+}
+
+.buttons {
     background-color: var(--main-color);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 11.5px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button {
@@ -425,7 +439,7 @@ footer {
     display: flex;
 }
 
-.footer {
+.footer-block {
     display: flex;
     justify-content: space-between;
     padding-left: 30px;

@@ -6,7 +6,7 @@
         padding:0;
     }
 
-/******* Header *******/
+    /******* Header *******/
 
     header {
         flex-direction: column;
@@ -30,13 +30,15 @@
         border-top: none;
     }
 
-    .searchbar, #recherche, .site-search {
+    .searchbar, #recherche, .search {
         width: 100%;
     }
 
-    .button {
+    .buttons {
         border-radius: 12px;
         margin-left:-5px;
+        display: flex;
+        align-items: center;
     }
 
     button {
@@ -48,7 +50,7 @@
         display: flex;
     }
     
-/******* Main container ********/
+    /******* Main container ********/
 
     .main-container {
         padding: 0;
@@ -76,7 +78,7 @@
         font-size: 14px;
     }
 
-/******* Main ********/ 
+    /******* Main ********/ 
 
    .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -118,18 +120,18 @@
         width: 100%;
     }
 
-/******* footer *******/
+    /******* footer *******/
 
     footer {
         padding: 0;
     }
 
-    .footer {
+    .footer-block {
         flex-direction: column;
         width: 100%;
     }
 
-/******* Général *******/
+    /******* Général *******/
 
     .card-subtitle {
         font-size: 14px;

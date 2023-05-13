@@ -85,7 +85,6 @@ a{
 
 .active:hover{
     border-top: 2px solid var(--main-color);
-    
 }
 
 .active:hover a {
@@ -197,7 +196,6 @@ button {
     align-items: center;
     padding: 0 10px;
     text-align: center;
-   
 }
 
 .filtres-liste :hover {
